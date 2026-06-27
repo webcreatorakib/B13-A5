@@ -7,6 +7,7 @@
 .container{
     max-width: 1600px;
     margin:auto;
+    padding:0 10px;
 }
 body{
     font-family: "Momo Trust Sans", sans-serif;
@@ -31,6 +32,11 @@ nav li{
 nav li a{
     text-decoration:none;
     color:black;
+}
+.fa-bars{
+    margin:10px 0;
+    font-size:20px;
+    display: none;
 }
 .btn{
     background: #469165;
@@ -75,7 +81,6 @@ nav li a{
     cursor: pointer;
 }
 .hero h1{
-    width:44%;
     margin: auto;
     font-size:60px;
     margin-bottom:15px;
@@ -88,4 +93,18 @@ nav li a{
     width:50%;
     margin:auto;
     margin-bottom:15px;
+    line-height: 30px;
+}
+.vault{
+    border:1px solid #469165;
+    outline:none;
+    padding:15px 15px;
+    font-size:18px;
+    font-weight: 400;
+    margin-right:20px;
+}
+.play{
+    padding:15px 15px;
+    font-size:18px;
+    background:none;
 }

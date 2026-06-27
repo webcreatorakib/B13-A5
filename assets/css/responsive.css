@@ -1,0 +1,31 @@
+@media screen and (max-width: 1024px) {
+    .hero-p{
+        width:100%;
+    }
+}
+@media screen and (max-width: 800px) {
+nav li{
+    margin:5px;
+    padding:5px;
+}
+.logo img{
+    width:100px;
+}
+.btn{
+    margin:5px;
+}
+}
+@media screen and (max-width:618px){
+    .hero{
+        padding:50px;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .nav-item{
+        display: none;
+    }
+    .hero h1{
+        font-size:40px;
+    }
+}
