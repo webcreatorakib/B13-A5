@@ -166,3 +166,16 @@ h6{
 .item-list li{
     margin-bottom:10px;
 }
+/* footer */
+.footer{
+    padding:80px 0;
+    text-align: center;
+    background:#F7F6F2;
+    border-radius: 20px;
+}
+.footer h2{
+    font-size:48px;
+}
+.footer p{
+    margin:15px 0;
+}
