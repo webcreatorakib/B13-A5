@@ -130,9 +130,39 @@ nav li a{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     padding:40px;
 }
+.card-item h3{
+    margin-bottom:10px;
+}
 .card-circle img{
     padding:20px;
     border-radius: 50%;
     background:#F95555;
     margin-bottom: 15px;
+}
+/* SOLUTION */
+.solution{
+    display: flex;
+    gap:50px;
+}
+.solution-details{
+    padding:150px 50px;
+}
+.solution-details p{
+    margin-top:15px;
+}
+.solution h4{
+    font-size:48px;
+}
+h6{
+    font-size:15px;
+}
+.solution p{
+    line-height: 25px;
+}
+.item-list{
+    margin-top:15px;
+    list-style: none;
+}
+.item-list li{
+    margin-bottom:10px;
 }

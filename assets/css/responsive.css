@@ -1,7 +1,20 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1224px) {
     .hero-p{
         width:100%;
     }
+    .solution{
+    flex-direction: column-reverse;
+    text-align: center;
+   }
+   .solution-details{
+    padding:0px 50px;
+   }
+   .solution img{
+    width: 100%;
+   }
+   .solution h4{
+    font-size:30px;
+}
 }
 @media screen and (max-width: 800px) {
 nav li{
